@@ -6,14 +6,9 @@
  Part 1/3 of series //The first part of the series
 */
 
+//Executes function for code
+(function(){
 
+ console.log("FIGHT!!!"); //Displays the message "FIGHT!!!" on the console
 
-
-
-
-
-
-
-
-
-
+ 
