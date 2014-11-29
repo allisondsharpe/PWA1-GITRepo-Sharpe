@@ -58,4 +58,24 @@
   };
  };
 
- 
+  function winnerCheck(){ //Executes function for a final winner
+   var result="no winner"; //Displays the message "no winner" for each round
+   if (playerOneHealth<1 && playerTwoHealth<1) //If/else statement for player one and player two
+   {
+    result = "You Both Die"; //If both players lose all health in the same round, the message "You Both Die" will be displayed
+   } else if(playerOneHealth<1){ //Else/if statement
+    result =playerTwoName+" WINS!!!" //If player one loses all health before player two, player two's name as well as the message "WINS!!!" will be displayed
+   } else if (playerTwoHealth<1) //Else/if statement
+   {
+    result = playerOneName+" WINS!!!" //If player two loses all health before player one, player one's name as well as the message "WINS!!!" will be displayed
+   };
+   return result; //Returns function
+  };
+
+  /*******  The program gets started below *******/
+  fight(); //Executes the app on the web page
+
+ })();
+
+
+
