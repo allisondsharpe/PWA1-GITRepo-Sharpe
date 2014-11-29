@@ -10,5 +10,3 @@
 (function(){
 
  console.log("FIGHT!!!"); //Displays the message "FIGHT!!!" on the console
-
- 
