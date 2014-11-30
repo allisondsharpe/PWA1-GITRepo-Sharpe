@@ -16,8 +16,8 @@
  var playerTwoName = "Vaas Montenegro"; //The name of player two
 
  //Player damage
- var player1Damage = 20; //The total amount of damage that will be inflicted upon player one
- var player2Damage = 20; //The total amount of damage that will be inflicted upon player two
+ var player1Damage = 50; //The total amount of damage that will be inflicted upon player one
+ var player2Damage = 50; //The total amount of damage that will be inflicted upon player two
 
  //Player health
  var playerOneHealth = 100; //The total amount of health that player one starts off with
