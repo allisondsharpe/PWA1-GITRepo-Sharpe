@@ -1,3 +1,9 @@
+/*
+Name: Allison Sharpe
+Date: 12-1-14
+Assignment 2
+ */
+
 // Create privatized scope using a self-executing function
 (function(){ //Executes function for the code
 	
