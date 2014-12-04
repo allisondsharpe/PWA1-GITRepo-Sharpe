@@ -18,4 +18,13 @@ Assignment: JS Practice v2
         return avgNumbers;
     }
 
- 
+    //--------------------------------------------------------
+    console.log("2. concat first and last name");
+
+    function fullName(Allison, Sharpe) {
+        console.log(('Allison, Sharpe'));
+        return fullName;
+
+    }
+
+    
