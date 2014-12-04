@@ -1,81 +1,86 @@
 /*
-Name: Allison Sharpe
-Date: 12-3-14
-Assignment: JS Practice v2
+Name: Allison Sharpe //My full name
+Date: 12-3-14 //Date started
+Assignment: JS Practice v2 //Assignment information
  */
 
-// self-executing function
-(function() {
+(function() { //Self-executing function
 
-    console.log('------ Goal2: Assignment: JavaScript Practice ----------');
+    console.log('------ Goal2: Assignment: JavaScript Practice ----------'); //Displays the goal for this assignment to the console
 
-    console.log("1. avg of an array of numbers");
+    console.log("1. avg of an array of numbers"); //Displays the message "1. avg of an array of numbers" to the console
 
-    function avgNumbers(avgNum) {
-        var avgNumbers = avgNum[0] + avgNum[1] + avgNum[2] + avgNum[3] + avgNum[4];
+    var total = [1, 2, 3, 4, 5]; //Array index variables
 
-        console.log('avg number = ', avgNumbers([1, 2, 3, 4, 5]));
-        return avgNumbers;
-    }
+    function avgNumbers(total) { //Executes function for the average of numbers
+        var avgNumbers = total[0] + total[1] + total[2] + total[3] + total[4]; //Arrays of average numbers
 
-    //--------------------------------------------------------
-    console.log("2. concat first and last name");
-
-    function fullName(Allison, Sharpe) {
-        console.log(('Allison, Sharpe'));
-        return fullName;
-
-    }
+        console.log("avg number = " + avgNumbers); //Displays the total average to the console
+        return avgNumbers; //Returns to function
+    } //Closing curly brace for function
 
     //--------------------------------------------------------
-    console.log("3. word count");
-    var ipsum = "this is test text that is being used as input to a function";
+    console.log("2. concat first and last name"); //Displays the message "2. concat first and last name" to the console
 
-    function wordCount(ipsum) {
-    }
+    function fullName(Allison, Sharpe) { //Executes function for full name
+        console.log(("Allison, Sharpe")); //Displays full name to the console
+        return fullName; //Returns to function
 
-    function totalWordCount(ipsum) {
-        console.log(wordCount(ipsum));
-    }
+    } //Closing curly brace for function
 
     //--------------------------------------------------------
-    console.log("4. sentence char count");
+    console.log("3. word count"); //Displays the message "3. word count" to the console
+    var ipsum = "this is test text that is being used as input to a function"; //Variable for the word count
 
-    function charCount(ipsum) {
+    function wordCount(ipsum) { //Executes function for the word count
+    } //Closing curly brace for function
 
-        console.log(charCount(ipsum));
-        return charCount;
-    }
-
-    //--------------------------------------------------------
-    console.log("5. how many vowels in a word");
-
-    function vowelsInWord(Javascript) {
-
-        console.log(vowelsInWord('JavaScript'));
-        return vowelsInWord;
-    }
+    function totalWordCount(ipsum) { //Executes another function that counts words and returns variables
+        console.log(wordCount(ipsum)); //Displays the word count to the console
+        return totalWordCount; //Returns variables to function
+    } //Closing curly brace for function
 
     //--------------------------------------------------------
-    console.log("6. find number and create an array of even or odd numbers");
+    console.log("4. sentence char count"); //Displays the message "4. sentence char count" to the console
 
-    function findNum(arrayOfNum, boolean) {
+    function charCount(ipsum) { //Executes function for character count
 
-        var arrayNum = arrayOfNum(31, 22, 4, 67, 83, 6, 5, 4);
-        var booleanNum = boolean(31, 22, 4, 67, 83, 6, 5, 4);
-    }
+        console.log(charCount(ipsum)); //Displays the character count to the console
+        return charCount; //Returns character count to function
+    } //Closing curly brace for function
 
-    if (booleanNum = false) {
-        arrayOfNum("31,67,83,5");
-    } else {
-        arrayOfNum("22,4,6,4");
+    //--------------------------------------------------------
+    console.log("5. how many vowels in a word"); //Displays the message "5. how many vowels in a word" to the console
 
-        console.log(findNum([31, 22, 4, 67, 83, 6, 5, 4]));
-        console.log(findNum([31, 22, 4, 67, 83, 6, 5, 4], false));
-        return arrayOfNum;
-    }
+    function vowelsInWord(Javascript) { //Executes function for vowels
 
-})();
+        console.log(vowelsInWord('JavaScript')); //Displays the vowel(s) to the console
+        return vowelsInWord; //Returns vowels to function
+    } //Closing curly brace for function
+
+    //--------------------------------------------------------
+    console.log("6. find number and create an array of even or odd numbers"); //Displays the message " " to the console
+
+    function findNum() { //Executes function for numbers 
+
+        var arrayNum = ([31, 22, 4, 67, 83, 6, 5, 4]); //Variable for array numbers
+        var boolean = ([31, 22, 4, 67, 83, 6, 5, 4]); //Variable for boolean numbers
+
+
+    if (boolean = false) { //If statement for if boolean numbers are false
+        console.log("31,67,83,5"); //Displays the odd numbers if statement is false
+    } else { //Else statement if boolean numbers are true
+        console.log("22,4,6,4"); //Displays the even numbers if statement is true
+
+        console.log(arrayNum([31, 22, 4, 67, 83, 6, 5, 4])); //Displays the array numbers to console
+        console.log(boolean([31, 22, 4, 67, 83, 6, 5, 4], false)); //Displays the boolean variable to console
+        return findNum; //Returns variables to function
+    } //Closing curly brace for function
+    } //Closing curly brace for else statement
+
+})(); //Closing for self-executing function
+
+
 
 
 
