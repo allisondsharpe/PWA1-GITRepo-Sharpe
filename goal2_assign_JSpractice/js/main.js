@@ -47,6 +47,16 @@ Assignment: JS Practice v2
         return charCount;
     }
 
+    //--------------------------------------------------------
+    console.log("5. how many vowels in a word");
+
+    function vowelsInWord(Javascript) {
+
+        console.log(vowelsInWord('JavaScript'));
+        return vowelsInWord;
+    }
+
+
 
 
 
