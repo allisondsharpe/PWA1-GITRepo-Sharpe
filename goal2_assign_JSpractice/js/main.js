@@ -27,4 +27,18 @@ Assignment: JS Practice v2
 
     }
 
+    //--------------------------------------------------------
+    console.log("3. word count");
+    var ipsum = "this is test text that is being used as input to a function";
+
+    function wordCount(ipsum) {
+    }
+
+    function totalWordCount(ipsum) {
+        console.log(wordCount(ipsum));
+    }
+
     
+
+
+
