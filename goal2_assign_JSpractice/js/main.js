@@ -38,7 +38,18 @@ Assignment: JS Practice v2
         console.log(wordCount(ipsum));
     }
 
-    
+    //--------------------------------------------------------
+    console.log("4. sentence char count");
+
+    function charCount(ipsum) {
+
+        console.log(charCount(ipsum));
+        return charCount;
+    }
+
+
+
+
 
 
 
