@@ -56,6 +56,27 @@ Assignment: JS Practice v2
         return vowelsInWord;
     }
 
+    //--------------------------------------------------------
+    console.log("6. find number and create an array of even or odd numbers");
+
+    function findNum(arrayOfNum, boolean) {
+
+        var arrayNum = arrayOfNum(31, 22, 4, 67, 83, 6, 5, 4);
+        var booleanNum = boolean(31, 22, 4, 67, 83, 6, 5, 4);
+    }
+
+    if (booleanNum = false) {
+        arrayOfNum("31,67,83,5");
+    } else {
+        arrayOfNum("22,4,6,4");
+
+        console.log(findNum([31, 22, 4, 67, 83, 6, 5, 4]));
+        console.log(findNum([31, 22, 4, 67, 83, 6, 5, 4], false));
+        return arrayOfNum;
+    }
+
+})();
+
 
 
 
