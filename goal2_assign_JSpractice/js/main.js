@@ -49,4 +49,18 @@ Assignment: JS Practice v2 //Assignment information
         return charCount; //Returns character count to function
     } //Closing curly brace for function
 
+    //--------------------------------------------------------
+    console.log("5. how many vowels in a word"); //Displays the message "5. how many vowels in a word" to the console
+
+    function vowelsInWord(Javascript) { //Executes function for vowels
+
+        console.log(vowelsInWord('JavaScript')); //Displays the vowel(s) to the console
+        return vowelsInWord; //Returns vowels to function
+    } //Closing curly brace for function
+
+
+
+
+
+
 
