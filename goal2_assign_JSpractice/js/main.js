@@ -19,7 +19,18 @@ Assignment: JS Practice v2 //Assignment information
         return avgNumbers; //Returns to function
     } //Closing curly brace for function
 
-  
+    //--------------------------------------------------------
+    console.log("2. concat first and last name"); //Displays the message "2. concat first and last name" to the console
+
+    function fullName(Allison, Sharpe) { //Executes function for full name
+        console.log(("Allison, Sharpe")); //Displays full name to the console
+        return fullName; //Returns to function
+
+    } //Closing curly brace for function
+
+    //--------------------------------------------------------
+
+
 
 
 
