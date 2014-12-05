@@ -61,7 +61,7 @@ Assignment: JS Practice v2 //Assignment information
     //--------------------------------------------------------
     console.log("6. find number and create an array of even or odd numbers"); //Displays the message " " to the console
 
-    function findNum() { //Executes function for numbers 
+    function findNum() { //Executes function for numbers
 
         var arrayNum = ([31, 22, 4, 67, 83, 6, 5, 4]); //Variable for array numbers
         var boolean = ([31, 22, 4, 67, 83, 6, 5, 4]); //Variable for boolean numbers
