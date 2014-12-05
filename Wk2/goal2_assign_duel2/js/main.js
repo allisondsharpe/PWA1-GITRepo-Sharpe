@@ -15,7 +15,12 @@
 
     var round = 1; //Variable for each round
 
- 
+    function fight() { //Executes function for fight
+
+        alert(playerOne[0]+":"+playerOne[2]+" *START* "+playerTwo[0]+":"+playerTwo[2]); //Alerts the user that the fight has started
+
+
+
 
 
 
