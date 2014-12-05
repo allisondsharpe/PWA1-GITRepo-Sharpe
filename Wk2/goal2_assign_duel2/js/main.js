@@ -31,6 +31,24 @@
             //Closing curly brace for "for loop"
             console.log(playerOne[2] + " " + playerTwo[2]); //Displays the players damage to the console
 
+            var result = winnerCheck(); //Variable for the winner check
+            console.log(result); //Displays the result to the console
+
+            if(result === "No winner") //If statement for each round that no one wins
+            { //Opening curly brace for if statement
+                round++; //Loops each round until there is a winner
+                alert(playerOne[0]+":"+playerOne[2]+" *Round "+round+" Over* "+playerTwo[0]+":"+playerTwo[2]); //Alerts the user for the end of each round
+            } else { //Else statement for either when one player wins, or when both players die
+
+                alert(result); //Alerts the user of the final result
+                break; //Break for if/else statement
+
+            } //Closing curly brace for if/else function
+
+        } //Closing curly brace for "for loop"
+
+    } //Closing curly brace for fight function
+
 
 
 
