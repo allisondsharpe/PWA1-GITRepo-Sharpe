@@ -59,6 +59,28 @@ Assignment: JS Practice v2 //Assignment information
     } //Closing curly brace for function
 
 
+    //--------------------------------------------------------
+    console.log("6. find number and create an array of even or odd numbers"); //Displays the message " " to the console
+
+    function findNum() { //Executes function for numbers
+
+        var arrayNum = ([31, 22, 4, 67, 83, 6, 5, 4]); //Variable for array numbers
+        var boolean = ([31, 22, 4, 67, 83, 6, 5, 4]); //Variable for boolean numbers
+
+
+        if (boolean = false) { //If statement for if boolean numbers are false
+            console.log("31,67,83,5"); //Displays the odd numbers if statement is false
+        } else { //Else statement if boolean numbers are true
+            console.log("22,4,6,4"); //Displays the even numbers if statement is true
+
+            console.log(arrayNum([31, 22, 4, 67, 83, 6, 5, 4])); //Displays the array numbers to console
+            console.log(boolean([31, 22, 4, 67, 83, 6, 5, 4], false)); //Displays the boolean variable to console
+            return findNum; //Returns variables to function
+        } //Closing curly brace for function
+    } //Closing curly brace for else statement
+
+})(); //Closing for self-executing function
+
 
 
 
