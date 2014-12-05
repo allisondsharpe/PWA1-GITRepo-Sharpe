@@ -29,12 +29,15 @@ Assignment: JS Practice v2 //Assignment information
     } //Closing curly brace for function
 
     //--------------------------------------------------------
+    console.log("3. word count"); //Displays the message "3. word count" to the console
+    var ipsum = "this is test text that is being used as input to a function"; //Variable for the word count
 
+    function wordCount(ipsum) { //Executes function for the word count
+    } //Closing curly brace for function
 
-
-
-
-
-
+    function totalWordCount(ipsum) { //Executes another function that counts words and returns variables
+        console.log(wordCount(ipsum)); //Displays the word count to the console
+        return totalWordCount; //Returns variables to function
+    } //Closing curly brace for function
 
 
