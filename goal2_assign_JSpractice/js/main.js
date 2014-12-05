@@ -40,4 +40,13 @@ Assignment: JS Practice v2 //Assignment information
         return totalWordCount; //Returns variables to function
     } //Closing curly brace for function
 
+    //--------------------------------------------------------
+    console.log("4. sentence char count"); //Displays the message "4. sentence char count" to the console
+
+    function charCount(ipsum) { //Executes function for character count
+
+        console.log(charCount(ipsum)); //Displays the character count to the console
+        return charCount; //Returns character count to function
+    } //Closing curly brace for function
+
 
