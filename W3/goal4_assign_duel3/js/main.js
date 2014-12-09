@@ -38,7 +38,23 @@
 
     function fight() { //Executes function for fight
 
-   
+        playerOne_txt.innerHTML = players[0].name + ":  " + players[0].health; //Displays player one's name and health to page
+        playerTwo_txt.innerHTML = players[1].name + ":  " + players[1].health; //Displays player two's name and health to page
+
+        var f1 = Math.floor(Math.random() * players[0].damage + players[0].damage * .5); //The Math.floor and Math.random formulas for player one
+        var f2 = Math.floor(Math.random() * players[1].damage + players[1].damage * .5); //The Math.floor and Math.random formulas for player two
+
+        players[0].health -= f1; //Displays math formula damage for player one to console
+        players[1].health -= f2; //Displays math formula damage for player two to console
+
+        console.log(players[0].health, players[1].health); //Displays the players damage to the console
+
+        var result = winnerCheck(); //Variable for the winner check
+        console.log(result); //Displays the result to the console
+
+        round_txt.innerHTML = " ROUND # " + round + " Results "; //Displays the round and results to the page
+        round ++; //Loop variable for each round
+
 
 
 
