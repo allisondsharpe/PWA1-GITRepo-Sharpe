@@ -1,7 +1,7 @@
 /*
 Name: Allison Sharpe
-Date: 12-2-14
-Assignment: Debug v2
+Date: 12-8-14
+Assignment: Debug v3
  */
 
 // Create privatized scope using a self-executing function
