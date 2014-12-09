@@ -7,17 +7,18 @@ body{
 }
 
 #scores{
-	background: #fff;
+	background: #666738;
 	width: 100%;
 	height: 100%;
+
 }
 
-#jason{
+#jason {
 	margin: 10px 10px 10px 20%;
 	float:left;
 }
 
-#vaas{
+#vaas {
 	margin: 10px 10px 10px 59%;
 	float:left;
 }
@@ -39,7 +40,7 @@ body{
 }
 
 #fight_bg{
-	position: fixed;
+	position: center;
 	z-index: 10;
 	-webkit-background-size: cover; /*for webKit*/
     -moz-background-size: cover; /*Mozilla*/
@@ -53,8 +54,8 @@ body{
 }
 
 .heading{
-	title: The Duel - Part 3
-	color: #1c80b3;
+	mytitle: center
+	color: #ffffff;
 	font-family: Arial bold, Helvetica, sans-serif;
 	font-size: 30px;
 }
