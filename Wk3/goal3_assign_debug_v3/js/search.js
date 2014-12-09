@@ -132,3 +132,4 @@ Assignment: Debug v3
 	}; //Fixed syntax error. Added closing curly brace
 
 })(); //Closing curly brace and statement for the self-executing function
+
