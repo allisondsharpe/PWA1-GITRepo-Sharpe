@@ -56,6 +56,37 @@
         round ++; //Loop variable for each round
 
 
+        if(result === "No winner") //If statement for each round that no one wins
+        { //Opening curly brace for if statement
+            playerOne_txt.innerHTML = players[0].name + ":  " + players[0].health; //Displays player one's name and health to page
+            playerTwo_txt.innerHTML = players[1].name + ":  " + players[1].health; //Displays player two's name and health to page
+        } else { //Else statement for either when one player wins, or when both players die
+            playerOne_txt.innerHTML = result; //Results will be displayed if player one were to win
+            playerTwo_txt.innerHTML = " "; //Results will be displayed if player two were to win
+
+            button.removeEventListener("click", fight, false); //Disables button for event
+
+            document.querySelector(".buttonblue").innerHTML = "DONE!"; //"Done!" will be displayed on button when fight is over
+
+        } //Closing curly brace for if/else function
+
+    } //Closing curly brace for fight function
+
+    function winnerCheck() { //Executes function for the winner check
+        var result = "No winner"; //Variable for the message "No winner"
+
+        if (players[0].health <1 && players[1].health <1) { //If statement will apply if both players were to lose
+            result = " You Both Die "; //The message "You Both Die" will be displayed to the user
+        } else if (players[0].health < 1) { //Else if statement for if player two were to win
+            result = players[1].name + " WINS!!! "; //The player's name as well as the message "WINS!!!" will be displayed
+        } else if (players[1].health < 1) { //Else if statement for if player one were to win
+            result = players[0].name + " WINS!!! "; //The player's name as well as the message "WINS!!!" will be displayed
+
+        } //Closing curly brace for if/else function
+        return result; //Returns result to function
+    } //Closing curly brace for winner check function
+
+})(); //Closes self-executing function
 
 
 
