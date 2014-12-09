@@ -30,7 +30,15 @@
             health: 100 //Player two's health
         }]; //Closing curly brace for player two and array bracket for player variables
 
+    var round = 1; //Variable for each round
 
+    round_txt.innerHTML ="Click FIGHT button to Start!"; //Displays the message "Click FIGHT button to Start!"
+    playerOne_txt.innerHTML = players[0].name + ":  " + players[0].health; //Displays player one's name and health to page
+    playerTwo_txt.innerHTML = players[1].name + ":  " + players[1].health; //Displays player two's name and health to page
+
+    function fight() { //Executes function for fight
+
+   
 
 
 
