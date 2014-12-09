@@ -18,6 +18,21 @@
     button.addEventListener("click", fight, false); //Sets up click event
 
 
+    var players = [ //Opening array bracket
+        { //Opening curly brace for player one
+            name: "Jason Brody", //Player one's name
+            damage: 20, //Player one's damage
+            health: 100 //Player one's health
+        }, //Closing curly brace for player one
+        {
+            name: "Vaas Montenegro", //Player two's name
+            damage: 20, //Player two's damage
+            health: 100 //Player two's health
+        }]; //Closing curly brace for player two and array bracket for player variables
+
+
+
+
 
 
 
