@@ -22,3 +22,17 @@ Assignment: Analyze! Objects.Person
         id.innerHTML = this.action; //Defines "this.action"
 
     } //Closing curly brace for function
+
+    Person.prototype.update = function() { //Executes function for the prototype for person
+        if(Math.floor(Math.random()<.01)) { //If statement and math formulas for change in person's actions
+
+            var i = Math.floor(Math.random() * Person.actions.length); //Math formula that determines the length of a person's actions
+            this.action = Person.actions[i]; //Defines "this.action"
+
+            var id = document.getElementById("r" + this.row + "c3"); //Displays "this.row" to the DOM
+            id.innerHTML = this.action; //Displays "this.action" to the DOM
+        } //Closing curly brace for if statement
+
+    }; //Closing curly brace for prototype for person
+
+})(); //Closing curly brace and parenthesis for self-executing function
