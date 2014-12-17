@@ -25,4 +25,19 @@ Assignment: Analyze! Objects.Person
 
     } //Closing curly brace for "for loop"
 
- 
+    clearInterval(interval); //Clears first interval
+
+    function populateHTML(data, field){ //Executes function for the data and field
+        var id = document.getElementById(field); //Displays the field to the DOM
+        id.innerHTML = data; //Displays the data to the DOM
+
+    } //Closing curly brace for function
+
+    function runUpdate (){ //Executes function for the run update
+
+        people.forEach(function(element){ //Executes function for the items in the people array
+            element.update(); //Runs prototype method for person.js file
+        }); //Closing curly brace and parenthesis for element function
+    } //Closing curly brace for function
+
+})(); //Closing curly brace and parenthesis for self-executing function
