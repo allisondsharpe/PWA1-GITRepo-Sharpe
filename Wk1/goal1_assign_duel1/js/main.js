@@ -7,7 +7,7 @@
 */
 
 //Executes function for code
-(function(){
+//(function(){
 
  console.log("FIGHT!!!"); //Displays the message "FIGHT!!!" on the console
 
@@ -75,7 +75,7 @@
   /*******  The program gets started below *******/
   fight(); //Executes the app on the web page
 
- })();
+ //})();
 
 
-
+console.log(new Date()); 

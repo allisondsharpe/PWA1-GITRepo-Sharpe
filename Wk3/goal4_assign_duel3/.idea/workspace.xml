@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e38c2af3-8762-4b44-88f4-183c901d92d5" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../W3/goal4_assign_duel3/.idea/workspace.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="e38c2af3-8762-4b44-88f4-183c901d92d5" name="Default" comment="" />
     <ignored path="Goal Assignment 1_Duel.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
